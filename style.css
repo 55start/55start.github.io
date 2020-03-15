@@ -1,6 +1,6 @@
 body {
-   background-color: #000000;
-   color: #FFFFFF;
+   background-color: #FFFFFF;
+   color: #000000;
    font-family: 'mononokiRegular';
    font-weight: normal;
    font-style: normal;
@@ -8,5 +8,5 @@ body {
 
 a {
    font-family: 'mononokiRegular';
-   color: #FFFFFF;
+   color: #000000;
 }
