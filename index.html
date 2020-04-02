@@ -21,6 +21,15 @@
   <style>
     body {
       text-align: center;
+      min-height: 100%;
+      min-width: 100%;
+      background: linear-gradient(221deg, #e44eff, #ffee00, #00d2ff, #cd4de4, #e4a74d, #fc2929);
+      background-size: 1200% 1200%;
+
+      -webkit-animation: BackgroundAnimation 30s ease infinite;
+      -moz-animation: BackgroundAnimation 30s ease infinite;
+      -o-animation: BackgroundAnimation 30s ease infinite;
+      animation: BackgroundAnimation 30s ease infinite;
     }
 
     .jumbotron {
@@ -46,16 +55,7 @@
       font-size: 4rem;
     }
 
-    .gradient {
-      min-height: 100%;
-      min-width: 100%;
-      background: linear-gradient(221deg, #e44eff, #ffee00, #00d2ff, #cd4de4, #e4a74d, #fc2929);
-      background-size: 1200% 1200%;
 
-      -webkit-animation: BackgroundAnimation 30s ease infinite;
-      -moz-animation: BackgroundAnimation 30s ease infinite;
-      -o-animation: BackgroundAnimation 30s ease infinite;
-      animation: BackgroundAnimation 30s ease infinite;
     }
 
     @-webkit-keyframes BackgroundAnimation {
