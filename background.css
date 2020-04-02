@@ -3,16 +3,28 @@ body {
   background-size: 1200% 1200%;
 
   -webkit-animation: BackgroundAnimation 30s ease infinite;
+  -moz-animation: BackgroundAnimation 30s ease infinite;
+  -o-animation: BackgroundAnimation 30s ease infinite;
   animation: BackgroundAnimation 30s ease infinite;
 }
 
 @-webkit-keyframes BackgroundAnimation {
-  0%{background-position:9% 0%}
-  50%{background-position:92% 100%}
-  100%{background-position:9% 0%}
+   0%{background-position:9% 0%}
+   50%{background-position:92% 100%}
+   100%{background-position:9% 0%}
+}
+@-moz-keyframes BackgroundAnimation {
+   0%{background-position:9% 0%}
+   50%{background-position:92% 100%}
+   100%{background-position:9% 0%}
+}
+@-o-keyframes BackgroundAnimation {
+   0%{background-position:9% 0%}
+   50%{background-position:92% 100%}
+   100%{background-position:9% 0%}
 }
 @keyframes BackgroundAnimation {
-  0%{background-position:9% 0%}
-  50%{background-position:92% 100%}
-  100%{background-position:9% 0%}
+   0%{background-position:9% 0%}
+   50%{background-position:92% 100%}
+   100%{background-position:9% 0%}
 }
