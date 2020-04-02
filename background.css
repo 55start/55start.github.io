@@ -4,15 +4,15 @@ body {
 
   -webkit-animation: BackgroundAnimation 30s ease infinite;
   animation: BackgroundAnimation 30s ease infinite;
+}
 
-  @-webkit-keyframes BackgroundAnimation {
-     0%{background-position:9% 0%}
-     50%{background-position:92% 100%}
-     100%{background-position:9% 0%}
-  }
-  @keyframes BackgroundAnimation {
-     0%{background-position:9% 0%}
-     50%{background-position:92% 100%}
-     100%{background-position:9% 0%}
-  }
+@-webkit-keyframes BackgroundAnimation {
+  0%{background-position:9% 0%}
+  50%{background-position:92% 100%}
+  100%{background-position:9% 0%}
+}
+@keyframes BackgroundAnimation {
+  0%{background-position:9% 0%}
+  50%{background-position:92% 100%}
+  100%{background-position:9% 0%}
 }
