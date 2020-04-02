@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: white;
+}
+.p-4 {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 4rem;
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 4rem;
+}
