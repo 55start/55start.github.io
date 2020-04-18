@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
 
-  <title>55start</title>
-  <link rel="shortcut icon" type="image/x-icon" href="55startfavicon.ico">
+  <title>Langley</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/langley.ico">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -29,52 +30,15 @@
       margin: 0;
       background-repeat: no-repeat;
       background-attachment: fixed;
-      background: linear-gradient(221deg, #e44eff, #ffee00, #00d2ff, #cd4de4, #e4a74d, #fc2929);
-      background-size: 1200% 1200%;
+      background: linear-gradient(45deg, #ff00e5, #ffe600);
+      background-size: 400% 100%;
 
       text-align: center;
 
-      -webkit-animation: BackgroundAnimation 30s ease infinite;
-      -moz-animation: BackgroundAnimation 30s ease infinite;
-      -o-animation: BackgroundAnimation 30s ease infinite;
-      animation: BackgroundAnimation 30s ease infinite;
-    }
-
-    .jumbotron {
-      background-color: white;
-    }
-    .p-4 {
-      width: 50%;
-      margin: 0auto;
-      margin-bottom: 0px;
-      margin-top: 20px;
-      border-radius: 20px;
-      background-color: white;
-      text-align: center;
-      display: inline-block;
-    }
-
-    h1 {
-      font-family: 'Red Hat Display', sans-serif;
-      font-size: 3rem;
-    }
-
-    h2 {
-      font-family: 'Red Hat Display', sans-serif;
-      font-size: 2rem;
-    }
-
-    h3 {
-      font-family: 'Red Hat Display', sans-serif;
-      font-size: rem;
-    }
-
-    p {
-      font-family: 'Red Hat Display', sans-serif;
-      font-size: 1rem;
-    }
-
-
+      -webkit-animation: BackgroundAnimation 10s ease infinite;
+      -moz-animation: BackgroundAnimation 10s ease infinite;
+      -o-animation: BackgroundAnimation 10s ease infinite;
+      animation: BackgroundAnimation 10s ease infinite;
     }
 
     @-webkit-keyframes BackgroundAnimation {
@@ -97,65 +61,44 @@
        50%{background-position:92% 100%}
        100%{background-position:9% 0%}
     }
-    .slidecontainer {
-      width: 50%;
-      margin-left: auto !important;
-      margin-right: auto !important;
-    }
 
-    .slider {
-      -webkit-appearance: none;
+    .p-4 {
       width: 100%;
-      height: 25px;
-      margin: 50px;
-      background: #e0e0e0;
-      outline: none;
-      opacity: 0.7;
-      -webkit-transition: .2s;
-      transition: opacity .2s;
-      margin-left: auto !important;
-      margin-right: auto !important;
+      border-radius: 20px;
+      background-color: white;
+      text-align: center;
     }
 
-    .slider:hover {
-      opacity: 1;
+    h1 {
+      font-size: 2.75rem;
+      font-family: 'Roboto Condensed', sans-serif;
     }
 
-    .slider::-webkit-slider-thumb {
-      -webkit-appearance: none;
-      appearance: none;
-      width: 25px;
-      height: 25px;
-      background: #000000;
-      cursor: pointer;
-      margin-left: auto !important;
-      margin-right: auto !important;
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 
-    .slider::-moz-range-thumb {
-      width: 25px;
-      height: 25px;
-      background: #000000;
-      cursor: pointer;
-      margin-left: auto !important;
-      margin-right: auto !important;
-    }
   </style>
 
-  <script>
-    document.GetElementsByClassName("gradient").style.Anim
-  </script>
-
 </head>
+
 <div class="gradient">
+
   <body>
-    <div class="shadow p-4 mb-4">
-      <span class="rounded-lg">
-        <div class="slidecontainer">
-          <input type="range" min="1" max="60" value="30" class="slider">
-        </div>
-      </span>
+    
+    <div class="centered">
+      <div class="shadow p-4 mb-4">
+        <span class="rounded-lg">
+          <h1><b><i>Uh oh!</i></b></h1>
+          <h2>You're lost!</h1>
+        </span>
     </div>
+
   </body>
+
 </div>
+
 </html>
